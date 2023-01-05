@@ -91,6 +91,9 @@ const MainProjects: FC<MainProjectsProps> = (projects) => {
       className="w-[450px] h-[600px] rounded-[12px]"
       src="HI.jpg"
       alt=""
+      style={{
+        objectFit: 'contain',
+      }}
       />
     </div>
     <p data-scroll className="text-lg text-gray-200" id="story">
@@ -166,6 +169,9 @@ const MainProjects: FC<MainProjectsProps> = (projects) => {
       className="w-[450px] h-[600px] rounded-[12px]"
       src="FUERZA.jpg"
       alt=""
+      style={{
+        objectFit: 'contain',
+      }}
       />
       
     </div>
@@ -245,6 +251,9 @@ const MainProjects: FC<MainProjectsProps> = (projects) => {
       className="w-[450px] h-[600px] rounded-[12px]"
       src="ADELGAZAR.jpg"
       alt=""
+      style={{
+        objectFit: 'contain',
+      }}
       />
     </div>
 
